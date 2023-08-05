@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&family=Open+Sans:wght@300;400;500;600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Pasion One', cursive;
+    --fonte3: 'Scriracha', cursive;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color:#fefefe;
+    font-family: var(--fonte1);
+}
+
+header{
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 30px;
+}
+
+a{
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a, footer a{
+    color: #fefefe;
+    align-items:baseline;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 50px ;
+    padding-bottom: 10vh; 
+    font-size: 3.5vw;
+    font-family: var(--fonte2); 
+}
+
+section >p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: #58514679;
+    color: black;
+}
+
+section.imagem{
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 12px opx rgba(0, 0, 0, 0.359);
+    color: #fefeef;
+}
+
+section.imagem > p{
+  display: inline-block;
+  text-shadow: 2px 3px 0px #00000074;
+  padding: 6px;
+  background-color: #0000001f;
+ 
+
+}
+
+section#img01{
+    background-image: url('imagens/imagem01.jpeg');
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: #fefefe;
+    text-align: center;
+    padding: 15px
+}
