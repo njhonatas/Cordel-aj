@@ -85,7 +85,6 @@ section.imagem{
 section.imagem > p{
   display: inline-block;
   text-shadow: 2px 3px 0px #00000074;
-  padding: 6px;
   background-color: #0000001f;
  
 
