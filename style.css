@@ -21,6 +21,9 @@ html, body{
 
 header{
     color: #ffffff;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 4px#46e92236;
+    border-radius: 30px;
     background-color: #000000;
     text-align: center;
 }
@@ -65,6 +68,7 @@ section >p{
 }
 
 section.normal{
+    border-radius: 8px;
     background-color: #58514679;
     color: black;
 }
@@ -73,7 +77,8 @@ section.imagem{
     background-color: black;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 12px opx rgba(0, 0, 0, 0.359);
+    box-shadow: 5px 0px 5px #00fc9c46;
+    border-radius: 8px ;
     color: #fefeef;
 }
 
@@ -98,8 +103,43 @@ section#img02{
 }
 
 footer{
-    background-color: black;
-    color: #fefefe;
-    text-align: center;
-    padding: 15px
+    background-color: #000000;
+    box-shadow: 1px 0px 2px 3px #000000;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 20px;
 }
+
+.footer-content,p{
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.center{
+    text-align: center;
+}
+.animated-footer {
+    opacity: 0.8;
+    transition: opacity 0.1s ease;
+  }
+  
+  .animated-footer:hover {
+    opacity: 1;
+  }
+  
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .icons{
+    display: inline-block;
+    font-size: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons:hover {
+    color: #ff0000; /* Cor alterada ao passar o mouse */
+  }
