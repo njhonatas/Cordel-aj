@@ -107,7 +107,7 @@ footer{
     box-shadow: 1px 0px 2px 3px #000000;
     border-radius: 8px;
     margin-top: 10px;
-    color: #ffffff;
+    color: #6ea575;
     padding: 20px;
 }
 
@@ -118,11 +118,6 @@ footer{
 .center{
     text-align: center;
 }
-.animated-footer {
-    opacity: 0.8;
-    transition: opacity 0.1s ease;
-  }
-  
   .animated-footer:hover {
     opacity: 1;
   }
@@ -131,15 +126,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    transition: transform 0.3 ease;
   }
   
   .icons{
     display: inline-block;
     font-size: 30px;
     transition: color 0.3s ease;
+    color: #fff;
   }
   
-  .social-icons:hover {
+  .icons:hover {
+    transform: scale(1.2);
     color: #ff0000; /* Cor alterada ao passar o mouse */
   }
